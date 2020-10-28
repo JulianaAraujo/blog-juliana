@@ -1,8 +1,11 @@
+const bcrypt = require('bcrypt')
+const jwt = require('jsonwebtoken')
+
 const HttpError = require('../models/http-error')
 const User = require('../models/user')
 
-const testUsers = (req, res) => {
-  res.json ({users: "user ok"})
+const signupUser = (req, res) => {
+  
 }
 
-module.exports = testUsers;
+module.exports = signupUser;
